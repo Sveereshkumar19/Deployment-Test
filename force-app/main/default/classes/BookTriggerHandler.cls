@@ -4,7 +4,8 @@ public class BookTriggerHandler {
         
         for(Books__c book : newList){
             book.Currency__c = 0.9 * book.Currency__c;
-        }
+                system.debug('test');
+                }
             system.debug('Test');
     }
     
